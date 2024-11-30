@@ -1,0 +1,65 @@
+.bg-container {
+  background-image: linear-gradient(
+    to right,
+    rgb(53, 53, 201),
+    rgb(139, 199, 219)
+  );
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: rgb(8, 8, 139);
+  text-align: center;
+}
+
+.input-box {
+  height: 30px;
+  width: 150px;
+  border: 1px solid rgb(35, 35, 175);
+}
+
+.search-button {
+  background-color: rgb(35, 35, 175);
+  color: #ffffff;
+  font-family: 'Roboto';
+  height: 30px;
+  padding: 5px;
+  border: none;
+  width: 70px;
+}
+
+.switch-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.switch-button {
+  background-color: rgb(35, 35, 175);
+  color: #ffffff;
+  margin-top: 20px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.heading2 {
+  color: rgb(8, 8, 139);
+  font-size: 20px;
+  text-align: center;
+}
