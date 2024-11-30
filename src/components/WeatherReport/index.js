@@ -70,7 +70,7 @@ class WeatherReport extends Component {
               <p className="p1">No favorite cities yet.</p>
             )}
           </div>
-          {weatherData.length === 0? <WeatherCard details={weatherData} /> }
+          {weatherData.length !== 0 && <WeatherCard details={weatherData} />}
         </div>
       </div>
     )
